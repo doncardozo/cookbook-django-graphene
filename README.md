@@ -7,9 +7,10 @@ Migration<br />
 python manage.py makemigrations<br />
 python manage.py migrate
 
-Example query
+Example query <br/>
 URL: http://127.0.0.1:8000/graphql
 
+<code>
 query {
   categoryByName(name:"Meat"){
     id, name,
@@ -19,3 +20,4 @@ query {
     }
   }
 }
+</code>
