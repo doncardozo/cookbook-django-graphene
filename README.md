@@ -1,8 +1,8 @@
 Developed with python 3.8
-
-Install graphene-django
+<br />
+Install graphene-django<br />
 pip install django graphene_django
 
-Migration
+Migration<br />
 python manage.py makemigrations
 python manage.py migrate
